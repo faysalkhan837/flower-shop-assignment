@@ -8,6 +8,13 @@
   font-size: 14px;
   line-height: 25px;
 }
+.common-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+}
 .btn {
   border: none;
   border-radius: 8px;
@@ -19,7 +26,7 @@
 /* Banner section */
 .banner-container {
   display: flex;
- height: 100vh;
+  height: 100vh;
   background: rgba(229, 84, 115, 0.1);
   gap: 130px;
   align-items: center;
@@ -33,7 +40,6 @@
   font-family: "Lato";
   color: #272727;
   font-size: 58px;
-  font-style: normal;
   font-weight: bolder;
 }
 #banner-p {
@@ -44,5 +50,47 @@
   width: 600px;
   height: 800px;
   margin-right: 200px;
-  padding-top: 50px;
+  padding-top: 35px;
+}
+
+/* Our Featured Flowers */
+
+.fetuared-container-text {
+  text-align: center;
+  padding-top: 170px;
+  width: 400px;
+  margin: auto;
+}
+
+.div1 {
+  display: flex;
+  align-items: center;
+  border-radius: 300px 300px 0px 0px;
+
+  width: 350px;
+  height: 420px;
+}
+.div1 > img {
+  width: 220px;
+  margin-left: 55px;
+  margin-top: 110px;
+}
+.featured-p {
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+.our-featured-flowers {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 200px 30px 200px;
+}
+#f1 {
+  background-color: rgba(167, 33, 98, 0.15);
+}
+#f2 {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+#f3 {
+  background-color: rgba(71, 125, 17, 0.15);
 }
