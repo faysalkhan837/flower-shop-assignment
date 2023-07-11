@@ -19,10 +19,10 @@
 /* Banner section */
 .banner-container {
   display: flex;
-  width: 1920px;
-  height: 850px;
+ height: 100vh;
   background: rgba(229, 84, 115, 0.1);
   gap: 130px;
+  align-items: center;
 }
 .banner-container-text {
   margin-left: 200px;
