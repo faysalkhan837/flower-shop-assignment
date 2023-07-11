@@ -10,7 +10,7 @@
 }
 .common-title {
   color: #272727;
-  text-align: center;
+  /* text-align: center; */
   font-family: Lato;
   font-size: 32px;
   font-style: normal;
@@ -95,18 +95,38 @@
   background-color: rgba(71, 125, 17, 0.15);
 }
 
-
 /* optional section */
-.optional-container{
-    display: flex;
-    width: 1400px;
-    height: 200px;
-    justify-content: space-around;
-    background-color: rgba(39, 39, 39, 0.05);
-    margin: 120px 200px 0px 200px;
-    margin: auto;
+.optional-container {
+  display: flex;
+  width: 1400px;
+  height: 200px;
+  justify-content: space-around;
+  background-color: rgba(39, 39, 39, 0.05);
+  margin: 120px 200px 0px 200px;
+  margin: auto;
 }
-.optional-1{
-    text-align: center;
-    margin-top: 60px;
+.optional-1 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+/* Hot-Deal-Text */
+.hot-deal-text {
+  text-align: center;
+  width: 500px;
+  margin-left: 200px;
+  margin-top: 230px;
+}
+.hot-deal-container {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-around;
+  height: 550px;
+  margin-top: 120px;
+}
+.hot-deal-img{
+    width: 300px;
+    height: 400px;
+    margin: 100px 400px 100px 180px;
 }
