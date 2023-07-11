@@ -94,3 +94,19 @@
 #f3 {
   background-color: rgba(71, 125, 17, 0.15);
 }
+
+
+/* optional section */
+.optional-container{
+    display: flex;
+    width: 1400px;
+    height: 200px;
+    justify-content: space-around;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 120px 200px 0px 200px;
+    margin: auto;
+}
+.optional-1{
+    text-align: center;
+    margin-top: 60px;
+}
