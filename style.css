@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.common-text-style {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 25px;
+}
+.btn {
+  border: none;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 40px;
+  color: wheat;
+}
+
+/* Banner section */
+.banner-container {
+  display: flex;
+  height: 100vh;
+  background: rgba(229, 84, 115, 0.1);
+  gap: 130px;
+}
+.banner-container-text {
+  margin-left: 200px;
+  /* width: 750px; */
+  margin-top: 230px;
+}
+.banner-title {
+  font-family: "Lato";
+  color: #272727;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: bolder;
+}
+#banner-p {
+  width: 500px;
+  margin: 30px 0px;
+}
+
+.banner-image {
+  width: 600px;
+  height: 800px;
+  margin-right: 200px;
+  padding-top: 50px;
+}
